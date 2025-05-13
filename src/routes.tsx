@@ -6,7 +6,7 @@ import Inicio from "pages/Inicio";
 import NotFound from "pages/NotFound";
 import Prato from "pages/Prato";
 import Sobre from "pages/Sobre";
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function AppRouter() {
   return (
