@@ -1,7 +1,7 @@
 import styles from "./Item.module.scss";
 import cardapio from "data/cardapio.json";
 import TagsPrato from "components/TagsPrato";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { memo } from "react";
 
 type Props = (typeof cardapio)[0];

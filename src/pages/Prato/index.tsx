@@ -1,5 +1,5 @@
 import styles from "./Prato.module.scss";
-import { useParams, useNavigate, Routes, Route } from "react-router";
+import { useParams, useNavigate, Routes, Route } from "react-router-dom";
 import cardapio from "data/cardapio.json";
 import { lazy } from "react";
 

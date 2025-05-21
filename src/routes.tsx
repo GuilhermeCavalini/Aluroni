@@ -1,7 +1,7 @@
 import Footer from "components/Footer";
 import Menu from "components/Menu";
 import { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Cardapio = lazy(() => import("pages/Cardapio"));
 const PaginaPadrao = lazy(() => import("components/PaginaPadrao"));
